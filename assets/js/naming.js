@@ -10,10 +10,14 @@ var $pet = 'cane';
 console.log($pet);
 var _pet = 'gatto';
 console.log(_pet);
-var _pet2 = 'furetto';
-console.log(_pet2);
-document.write(_pet2);
+
+
 
 document.getElementById('animalePreferito').innerHTML = petPreferito + ' a sonagli' + ' rosso';
+
+document.getElementById('myAge').innerHTML = 10 + 10 + 8 - 1;
+
+var scrittaFinale = 'E questo è tutto! Ciao!!';
+document.write(scrittaFinale);
 
 //var 12 = 'numero';
